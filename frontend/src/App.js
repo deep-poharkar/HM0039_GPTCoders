@@ -3,7 +3,8 @@ import { useContext, useEffect } from "react";
 import { Cookies, useCookies } from "react-cookie";
 import axios from "axios";
 import Homepage from "./pages/homepage/homepage";
-import LoginPage from "./pages/login/login"
+import LoginPage from "./pages/login/login";
+import Message from "./pages/message/message";
 import LoginContext from "./context/context";
 import { PrivateRoute } from "./components/router/PrivateRouter";
 
@@ -43,6 +44,12 @@ function App() {
           path="/"
           element={
               <Homepage />
+          }
+        />
+        <Route
+          path="/message"
+          element={
+              <Message />
           }
         />
       </Routes>
