@@ -192,7 +192,7 @@ function Homepage() {
               {/* For Social Media Links*/}
             </div>
           </div>
-          <div className="text-center">© 2024 by Algovengers</div>
+          <div className="text-center">© 2024 by GPTCoders</div>
         </div>
       </footer>
     </div>

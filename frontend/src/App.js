@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Homepage from "./pages/homepage/homepage";
 import { useContext, useEffect } from "react";
 import { Cookies, useCookies } from "react-cookie";
 import axios from "axios";
+import Homepage from "./pages/homepage/homepage";
+import LoginPage from "./pages/login/login"
 import LoginContext from "./context/context";
 import { PrivateRoute } from "./components/router/PrivateRouter";
 
@@ -30,12 +31,18 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route
+          path="/login"
+          element={
+            <PrivateRoute>
+              <LoginPage />
+            </PrivateRoute>
+          }
+        />
         <Route
           path="/"
           element={
-            <PrivateRoute>
               <Homepage />
-            </PrivateRoute>
           }
         />
       </Routes>
