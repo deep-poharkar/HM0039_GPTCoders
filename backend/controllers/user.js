@@ -1,5 +1,9 @@
 const user = require("../models/User");
+<<<<<<< HEAD
 // const { genAnalysis } = require("./analysis");    {To be used later}
+=======
+// const { genAnalysis } = require("./analysis");
+>>>>>>> aa3062e89149f7e49baa185689413004fc25e69e
 const report = require("../models/Report");
 const { v4: uuid } = require("uuid");
 const User = require("../models/User");
