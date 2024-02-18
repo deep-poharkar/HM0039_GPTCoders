@@ -172,7 +172,7 @@ function Homepage() {
       <footer className={styles.footer}>
         <div className="m-auto h-full" style={{ maxWidth: "1320px" }}>
           <div className="grid grid-cols-2 h-5/6">
-            <div className="flex flex-row justify-center items-center gap-20 text-lg" style={{marginLeft: 650}}>
+            <div className="flex flex-col justify-center items-center gap-3 text-lg" >
               <div onClick={aboutClick} className="cursor-pointer">
                 About
               </div>
@@ -183,8 +183,7 @@ function Homepage() {
                 onClick={() => {
                   navigate("/message");
                 }}
-                className="cursor-pointer"
-              >
+                className="cursor-pointer">
                 Chat
               </div>
             </div>
