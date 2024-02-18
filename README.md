@@ -41,4 +41,5 @@ TraqLinq is a comprehensive web application designed to promote mental health an
 
 ## Remarks
   TraqLinq has the potential to evolve into a comprehensive platform for mental health support, continuously improving and adapting to meet the needs of its users.
+  In the next phase of development, TraqLinq will incorporate advanced analysis of user interactions and implement an emailing feature to provide personalized mental health insights and recommendations.
 
