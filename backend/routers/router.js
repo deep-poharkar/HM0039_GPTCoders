@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const { connectWithChatBot } = require("../controllers/chat.js");
-const { doAnalysis, getAnalysis } = require("../controllers/analysis.js");
+// const { doAnalysis, getAnalysis } = require("../controllers/analysis.js");
 const { userMiddleware } = require("../middlewares/genUserId.js");
 const { signup, login, isUser, logout } = require("../controllers/user.js");
 
