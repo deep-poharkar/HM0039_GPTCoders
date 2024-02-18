@@ -37,7 +37,7 @@ TraqLinq is a comprehensive web application designed to promote mental health an
 [Link to Deployed Solution](https://tranqlinq-hm0039.netlify.app/)
 
 ## Video Url
-[Link to Demo Video](video_url)
+[Link to Demo Video]([video_url](https://youtu.be/EaB2TzeEyXo?si=N6EO2uJl3a6bB2F8))
 
 ## Remarks
   TraqLinq has the potential to evolve into a comprehensive platform for mental health support, continuously improving and adapting to meet the needs of its users.
